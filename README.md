@@ -22,3 +22,10 @@ NASA Battery Aging dataset: B0005, B0006, B0007, B0018 (636 discharge cycles).
 
 ## Run
 .\.venv\Scripts\python.exe -m streamlit run .\app_gauge.py
+
+## Rebuild from scratch
+1. Put B0005.mat, B0006.mat, B0007.mat, B0018.mat in data\raw\
+2. .\.venv\Scripts\python.exe .\prepare_data.py
+3. .\.venv\Scripts\python.exe .\extract_features.py
+4. .\.venv\Scripts\python.exe .\save_model.py
+5. .\.venv\Scripts\python.exe -m streamlit run .\app_gauge.py
