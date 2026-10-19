@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VoltSense AI generated and raw data
+data/raw/*.mat
+models/*.joblib
+capacity_plot.png
