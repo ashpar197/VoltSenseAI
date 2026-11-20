@@ -221,5 +221,7 @@ __marimo__/
 
 # VoltSense AI generated and raw data
 data/raw/*.mat
-models/*.joblib
 capacity_plot.png
+
+*.db
+*.sqlite3
